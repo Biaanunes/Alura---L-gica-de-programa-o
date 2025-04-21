@@ -1,0 +1,17 @@
+let numeroSecreto = 5;
+console.log(numeroSecreto)
+//let guarda as informações
+let chute = prompt('Escolha um número entre 1 e 10');
+
+// "==" é para fazer comparações
+if (chute == numeroSecreto) {
+    //console.log é para exibir uma mensagem escondida quando vc clica com o batão direito e inspenciona o código
+    alert(`Isso ai! você descobriu o número secreto! ${numeroSecreto}`);
+}else {
+    alert('Você errou :(')
+    if (chute <= numeroSecreto){
+        alert('o número é maior');
+    }else{
+        alert('o número é menor');
+    }
+}
